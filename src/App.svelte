@@ -1,8 +1,8 @@
 <!--script-->
 <script>
 	import Navbar from "./Components/Navbar/Navbar.svelte";
-	import DATA from "./Data/data";
+	import { NAV_BAR_DATA, HEADER } from "./Data/data";
 </script>
 
 <!-- Navbar -->
-<Navbar navlists={DATA.NAV_BAR_DATA} header={DATA.HEADER} />
+<Navbar navlists={NAV_BAR_DATA} header={HEADER} />

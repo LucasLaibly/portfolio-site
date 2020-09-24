@@ -1,7 +1,6 @@
-const HEADER=[{HEADER:"header"}];
+export const HEADER="Lucas Laibly";
 
-const NAV_BAR_DATA = [
-    { id: 1, url: "/", label: "home" },
-    { id: 2, url: "#projects", label: "projects" },
-    { id: 3, url: "#library", label: "library" },
+export const NAV_BAR_DATA = [
+    { id: 1, url: "#projects", label: "projects" },
+    { id: 2, url: "#library", label: "library" },
 ];
