@@ -11,12 +11,12 @@
             <span style="font-weight:bold">{header}</span> | coder
         </a>
 
-      <div class="nav-bar" id="navbarNav" style="padding-left:80%">
+      <div class="nav-bar" style="padding-left:80%">
         <ul class="navbar-nav">
           {#each navlists as list}
-            <li class="nav-item">
+            <ul class="nav-item">
               <a href={list.url}>{list.label}</a>
-            </li>
+            </ul>
           {/each}
         </ul>
       </div>
@@ -33,6 +33,10 @@
     font-family: Arial, Helvetica, sans-serif;
   }
 
+  #nav-item {
+    display: inline-block;
+  }
+
   #nav-bar {
     overflow: hidden;
     background-color: #333;
@@ -47,12 +51,12 @@
     font-size: 17px;
   }
 
-  .navbar-nav li a:hover {
+  .navbar-nav ul a:hover {
     background-color: #ddd;
     color: black;
   }
 
-  .navbar-nav li a.active {
+  .navbar-nav ul a.active {
     background-color: #24a4d6;
     color: white;
   }
