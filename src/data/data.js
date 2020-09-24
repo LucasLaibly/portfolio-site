@@ -1,6 +1,7 @@
-const HEADER = "HEADER"
+export const HEADER="Lucas Laibly";
 
-const BANNER = {
-    HEADING = "Lucas Laibly",
-    DESCRIPTION = "Description"
-};
+export const NAV_BAR_DATA = [
+    { id: 1, url: "#about", label: "about" },
+    { id: 2, url: "#projects", label: "projects" },
+    { id: 3, url: "#library", label: "library" },
+];
